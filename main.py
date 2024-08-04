@@ -15,7 +15,7 @@ def main():
     os.mkdir('dist')
 
     with open('dist/CNAME', 'w') as f:
-        f.write('tshr.me')
+        f.write('fredika.web.id')
 
     for link in links:
         html_document = html.format(url=link['url'])
